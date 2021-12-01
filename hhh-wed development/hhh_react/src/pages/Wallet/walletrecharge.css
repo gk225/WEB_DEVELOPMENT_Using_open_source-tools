@@ -1,0 +1,62 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.walletrecharge {
+  font-family: "proxima_nova_rgregular";
+  background-color: #fff;
+  justify-content: center;
+  display: flex;
+}
+.walletrecharge > h1 {
+  font-size: 40px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  color: #000;
+}
+.stripe {
+  position: relative;
+  width: 60vw;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px #ddd solid;
+  padding: 17px;
+  padding-left: 22px;
+  font-size: 38px;
+}
+.stripeInputRadio {
+  padding: 2px;
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 8px;
+}
+.stripeInputRadioLabel {
+  left: 10px;
+  position: relative;
+  font-size: 30px;
+}
+@media screen and (max-width: 640px) {
+  .stripe {
+    width: 90vw;
+    font-size: 26px;
+    margin: 30px 10px auto 10px;
+  }
+  .stripeInputRadio {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .stripe {
+    width: 40vw;
+    font-size: 26px;
+    margin: 30px 10px auto 10px;
+  }
+}

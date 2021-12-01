@@ -1,0 +1,255 @@
+.mainPagecontainer {
+  font-family: "proxima_nova_rgregular";
+}
+.mainPageContainer-first {
+  height: 95vh;
+}
+.Albums {
+  height: 90%;
+  position: relative;
+  margin-left: 20%;
+  display: inline-block;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "proxima_nova_rgregular";
+  text-transform: uppercase;
+}
+.Albums > h1 {
+  text-align: center;
+}
+.mainPageButton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "proxima_nova_regular", sans-serif;
+  font-size: 18px;
+  height: 60px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  margin-top: 40px;
+  margin-left: 38%;
+}
+.Albumbutton {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #000;
+  width: 33.33%;
+
+  margin-top: 50px !important;
+  margin-left: 33.33% !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Albumbutton:hover {
+  background-color: #fff;
+  color: #000;
+}
+.gallery {
+  margin-top: 20px;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 5vw);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 0px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.gallery__item--2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.gallery__item--3 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.gallery__item--5 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.gallery__item--6 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.MainTours {
+  margin-top: 70px;
+  padding: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-family: "proxima_nova_rgregular";
+  box-sizing: border-box;
+}
+.MainTours > h1 {
+  margin: -20px 0px 30px 0px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row {
+  margin: 0 -20px 0px -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1230px) {
+  .column {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  text-transform: uppercase;
+  padding: 10px 0px 10px 0px;
+  margin: 20px;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.Ticketsbutton {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #fff;
+  width: 25%;
+}
+.Ticketsbutton:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+}
+.Merch {
+  font-family: "proxima_nova_rgregular";
+  background-color: #fec325;
+  color: #000;
+  text-align: center;
+  padding: 30px;
+}
+.Merch > h1 {
+  padding-bottom: 30px;
+}
+.Merchbutton {
+  background-color: #000;
+  color: #fff;
+  border: 2.5px solid #000;
+  width: 25%;
+}
+.Merchbutton:hover {
+  border: 1px solid #fec345;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 500px) {
+  .Albums {
+    margin-left: 40px;
+  }
+  .Albumbutton {
+    width: 60%;
+    margin-left: 17.5% !important;
+  }
+  .gallery {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(8, 10vw);
+    grid-template-rows: repeat(12, 10vw);
+    grid-gap: 0px;
+  }
+
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+  }
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .gallery__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 13;
+  }
+
+  .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+  .gallery__item--5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+  .gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 13;
+  }
+  .Ticketsbutton {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .Merchbutton {
+    width: 70%;
+    margin-left: 15%;
+  }
+}

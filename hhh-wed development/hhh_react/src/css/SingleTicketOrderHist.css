@@ -1,0 +1,39 @@
+.ticket-quantity-orderHist {
+  vertical-align: top;
+  width: 7%;
+  padding-right: 0%;
+  font-size: 80%;
+}
+.ticket-name-orderHist {
+  padding-left: 1%;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.ticket-current-price-orderHist {
+  display: inline-block;
+  width: 12%;
+  font-size: 80%;
+  vertical-align: top;
+  color: rgb(170, 50, 19);
+}
+@media screen and (max-width: 1000px) {
+  .ticket-name-orderHist {
+    width: 37% !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ticket-quantity-orderHist {
+    font-size: 70% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ticket-quantity-orderHist {
+    font-size: 60% !important;
+  }
+  .ticket-current-price-orderHist {
+    font-size: 75%;
+    padding-right: 5%;
+  }
+}

@@ -1,0 +1,192 @@
+.checkout-page-h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-family: lato-bold;
+}
+.checkout-page-h3 {
+  text-align: center;
+  /* margin-top: 40px; */
+  margin-bottom: 18px;
+  font-family: lato-bold;
+}
+.checkout-page-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.checkout-page-left-wallet-container {
+  display: inline-table;
+  color: #68696b;
+  width: 24%;
+  border: 1px solid rgb(218, 216, 216);
+  border-radius: 2px;
+  line-height: 40px;
+  font-size: 30px;
+  padding: 15px 0px 15px 0px;
+  margin-right: 20px;
+}
+.checkout-page-left-wallet-left {
+  display: inline-block;
+  width: 35%;
+  text-align: right;
+  font-family: lato-thin;
+  color: black;
+}
+.checkout-page-left-wallet-right {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 24px !important;
+
+  font-family: lato-light;
+}
+.checkout-page-right-container {
+  display: inline-block;
+  margin-left: 7%;
+  width: 45%;
+  line-height: 8vh;
+  font-size: 35px;
+  padding: 0 0px 15px 0px;
+}
+.checkout-page-above-final-price {
+  display: block;
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.checkout-page-above-fp-left {
+  display: inline-block;
+  width: 65%;
+  text-align: right;
+  padding-right: 5%;
+  font-family: lato-light;
+}
+.checkout-page-above-fp-right {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  color: #a52606;
+  font-family: lato-regular;
+}
+
+.checkout-page-confirm-button {
+  text-decoration: none;
+  font-family: lato-regular;
+  font-size: 35px;
+  color: #68696b;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ccc;
+}
+.checkout-page-confirm-button:hover {
+  border-bottom: 1px solid #f4d078;
+  color: #2f2f30;
+  cursor: pointer;
+}
+.checkout-page-alert-message {
+  display: block;
+  width: 56%;
+  text-align: right;
+  font-size: 30px;
+  font-family: lato-bold;
+}
+.checkout-page-alert-message a {
+  border-bottom: 1px solid #f4d078;
+  font-size: 28px;
+}
+@media screen and (max-width: 1100px) {
+  .checkout-page-left-wallet-container {
+    width: 33%;
+    font-size: 25px;
+  }
+  .ticket-checkout-page-right-container{
+    width: 90%;
+    margin-left:0px;
+    margin-right: 20px;
+  }
+  .ticket-quantity {
+    float: left;
+    width: 50%;
+    font-size: 75%;
+    padding-left: 30%;
+    margin-top: -32px;
+  }
+  .ticket-checkout-price{
+    float:right;
+    width: 100%;
+    margin-top:-44px;
+    padding-bottom: 15px;
+  }
+  .ticket-cart-form__quantity{
+    margin-left: 10%;
+    float: right;
+  }
+  .ticket-current-price{
+    float: left;
+    width: 100%;
+  }
+  .ticket-name{
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .checkout-page-container {
+    flex-direction: column;
+  }
+  .checkout-page-left-wallet-container {
+    width: 91%;
+    font-size: 27px;
+  }
+  .checkout-page-right-container {
+    margin-left: 0;
+    width: 90%;
+    margin-right: 5%;
+  }
+  .checkout-page-above-fp-left {
+    width: 61%;
+    font-size: 25px;
+    line-height: 1em !important;
+  }
+  .checkout-page-above-fp-right {
+    width: 34%;
+    font-size: 21px;
+  }
+  .checkout-page-confirm-button {
+    font-size: 22px;
+    /* margin-right: 20px; */
+    border-bottom: 2px solid #ccc;
+  }
+  .checkout-page-above-final-price {
+    font-size: 20px;
+  }
+  .ticket-checkout-page-right-container{
+    width: 90%;
+    margin-left: 0px;
+  }
+  .ticket-quantity {
+    float: left;
+    width: 50%;
+    font-size: 75%;
+    padding-left: 30%;
+    margin-top: -32px;
+  }
+  .ticket-checkout-price{
+    float:right;
+    width: 100%;
+    margin-top:-44px;
+    padding-bottom: 15px;
+  }
+  .ticket-cart-form__quantity{
+    margin-left: 10%;
+  }
+  .ticket-current-price{
+    float: left;
+    width: 100%;
+  }
+  .ticket-name{
+    padding-bottom: 30px;
+  }
+}

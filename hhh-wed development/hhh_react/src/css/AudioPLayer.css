@@ -1,0 +1,240 @@
+/* Player */
+.no-height {
+  height: 0 !important;
+}
+.particlesPlayer {
+  background: #111010;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.containerPlayer > h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #fec345;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto; 
+}
+.player-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d2d5d6;
+  width: 430px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px #2a2a2a46;
+}
+.player-cover {
+  height: 340px;
+  background-position: top center;
+  background-size: cover;
+  transition: height 0.4s;
+}
+.artist-info {
+  padding: 20px 35px 35px;
+}
+.artist-name,
+.artist-song-name {
+  margin: 0;
+}
+.artist-name {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.artist-song-name {
+  font-size: 32px;
+  font-weight: 400;
+}
+.player-progress-container {
+  position: relative;
+  width: 365px;
+  height: 7px;
+  margin: 0 auto;
+  background-color: #414141;
+  border-radius: 40px;
+}
+.player-progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fec345;
+  border-radius: 40px;
+}
+.player-progress-value:after {
+  position: absolute;
+  top: -3px;
+  right: -6px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #cdd2d8;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 2px;
+}
+.player-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px;
+  width: 365px;
+  margin: 0 auto;
+  position: relative;
+}
+.player-buttons {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 135px;
+  margin: auto;
+  padding: 0px;
+  /*margin: 0px -10px;*/
+}
+.player-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #d2d5d6;
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  outline: 0;
+  padding: 4px;
+}
+.player-btn i {
+  font-size: 28px;
+  margin: 0 auto;
+}
+.player-btn.active {
+  color: #fec345;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  outline: 0;
+  /*transition: all .4s;*/
+  padding: 4px;
+  /*color: #D2D7DB;*/
+}
+/* .player-btn.active i {
+  font-size: 28px;
+  margin: 0 0 0 0;
+} */
+
+.player-btn.big {
+  width: 70px;
+  height: 70px;
+}
+.player-btn.big i {
+  font-size: 36px;
+}
+.player-btn.medium {
+  width: 50px;
+  height: 50px;
+}
+.player-btn.medium i {
+  font-size: 15px;
+}
+.player-btn.volume {
+  width: 40px;
+}
+.player-btn:disabled {
+  opacity: 0.5;
+}
+.player-controls {
+  width: 180px;
+}
+.player-controls .player-btn {
+  color: #d9d9d9;
+  background-color: #414141;
+}
+.queue {
+  height: auto;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  list-style: none;
+  width: 89%;
+  margin-bottom: 25px;
+}
+.queues {
+  font-weight: 400;
+  color: #fec345;
+  padding: 7px;
+  margin: 2px;
+  height: auto;
+  border-bottom: 0.5px solid rgba(91, 91, 93, 0.616);
+  border-bottom-left-radius: 0.25px;
+  border-bottom-right-radius: 0.25px;
+  cursor: pointer;
+  user-select: none;
+}
+.queues:hover {
+  background-color: #fec345;
+  font-weight: 400;
+  color: #000000;
+  padding: 7px;
+  margin: 2px;
+  height: auto;
+  border-bottom: 0.5px solid rgba(91, 91, 93, 0.972);
+  border-bottom-left-radius: 0.25px;
+  border-bottom-right-radius: 0.25px;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.queueue {
+  color: rgb(221, 221, 221);
+  padding: 7px;
+  margin: 2px;
+  height: auto;
+  border-bottom: 0.5px solid rgba(91, 91, 93, 0.616);
+  border-bottom-left-radius: 0.25px;
+  border-bottom-right-radius: 0.25px;
+  transition: color 0.2s;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(122, 118, 118, 0.048);
+  user-select: none;
+}
+.queueue:hover {
+  background-color: #fec345;
+  color: #000000;
+  padding: 7px;
+  margin: 2px;
+  height: auto;
+  border-bottom: 0.5px solid rgba(91, 91, 93, 0.972);
+  border-bottom-left-radius: 0.25px;
+  border-bottom-right-radius: 0.25px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+@media screen and (max-width: 475px) {
+  .player-container{
+    width: 90%;
+  }
+  .player-cover{
+    height: 280px;
+  }
+  .player-progress-container {
+    width: 80%;
+  }
+  .player-options{
+    width: fit-content;
+  }
+  footer{
+    right: 0px;
+  }
+}

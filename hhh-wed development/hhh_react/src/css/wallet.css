@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "proxima_nova_rgregular";
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular")
+      format("svg");
+}
+@font-face {
+  font-family: "proxima_nova_rgbold";
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold")
+      format("svg");
+}
+@font-face {
+  font-family: "lato-thin";
+  src: url("../fonts/Lato-Hairline/Lato-Thin.woff") format("woff"),
+    url("../fonts/Lato-Hairline/Lato-Thin.svg") format("svg");
+}
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/Lato-Light/Lato-Light.woff") format("woff"),
+    url("../fonts/Lato-Light/Lato-Light.svg") format("svg");
+}
+
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular/Lato-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: "lato-Bold";
+  src: url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"),
+    url("../fonts/Lato-Bold/Lato-Bold.svg") format("svg");
+}
+body {
+  font-family: "proxima_nova_rgregular", sans-serif;
+}
+
+.moneytowallet {
+  text-align: right;
+  margin-top: 20px;
+}
